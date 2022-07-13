@@ -37,6 +37,10 @@ end;
 
 procedure xxxxx.OnClick...
 var PcPosMessage:TPcPosMessage;
+    MultiMerchantValue:TList<TMultiMerchantPosDevider>;
+    MultiMerchant:TMultiMerchantPosDevider;
+    FrameResponse:TFrameResponse;
+	IntResponseCode,IntApprovalCode:Int64;
 begin
   PcPosMessage := TPcPosMessage.Create;
   PcPosMessage.OnPcPosConnectionStatus := OnPcPosConnectionStatus;
