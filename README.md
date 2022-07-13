@@ -1,6 +1,6 @@
 # RadStudio Sadad PCPos API
 
-This API used to connect to BMI Sadad PCPos
+This API used to connect to BMI Sadad PCPos Without Activex
 
 ## Sadad PCPos API Usage
 
